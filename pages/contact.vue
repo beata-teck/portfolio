@@ -6,12 +6,12 @@
           <span class="section-label-dot" />
           <span>Contact</span>
           <span>·</span>
-          <span>Let’s get in touch</span>
+          <span>Say hello</span>
         </div>
-        <h1 class="section-title">Tell me about your project or team</h1>
+        <h1 class="section-title">Tell me about your idea or project</h1>
         <p class="section-subtitle">
-          Whether you’re looking for help with a product, a design system, or a new marketing site, feel free to reach
-          out. I’ll reply with next steps and a couple of time options.
+          Whether it’s a productivity app, a portfolio site, or something completely new, I’d love to hear what you’re
+          building and how I can help.
         </p>
       </header>
 
@@ -32,7 +32,7 @@
                       name="name"
                       autocomplete="name"
                       class="input"
-                      placeholder="What should I call you?"
+                      placeholder="Your name"
                     />
                   </div>
 
@@ -104,8 +104,8 @@
               <hr class="divider" />
 
               <p class="text-xs muted">Prefer email?</p>
-              <a href="mailto:you@example.com" class="link">
-                you@example.com
+              <a href="mailto:batatefera7@gmail.com" class="link">
+                batatefera7@gmail.com
                 <span aria-hidden="true">↗</span>
               </a>
             </div>

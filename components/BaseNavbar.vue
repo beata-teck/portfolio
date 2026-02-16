@@ -4,7 +4,7 @@
       <NuxtLink to="/" class="navbar-brand">
         <span class="navbar-brand-mark" />
         <div class="navbar-brand-text">
-          <span class="navbar-brand-title">Your Name</span>
+          <span class="navbar-brand-title">Beata</span>
           <span class="navbar-brand-subtitle">Frontend Developer</span>
         </div>
       </NuxtLink>

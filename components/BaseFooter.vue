@@ -5,8 +5,8 @@
         <div class="footer-brand">
           <span class="footer-mark" />
           <div>
-            <p class="footer-title">Your Name</p>
-            <p class="footer-subtitle">Building thoughtful web experiences.</p>
+            <p class="footer-title">Beata</p>
+            <p class="footer-subtitle">Turning coffee and ideas into beautiful code.</p>
           </div>
         </div>
       </div>
@@ -17,7 +17,7 @@
           <NuxtLink to="/contact" class="footer-link">Contact</NuxtLink>
         </div>
         <p class="footer-meta">
-          <span>&copy; {{ new Date().getFullYear() }} Your Name.</span>
+          <span>&copy; {{ new Date().getFullYear() }} Beata.</span>
           <span class="dot">·</span>
           <span>Nuxt 3 · Vue 3</span>
         </p>

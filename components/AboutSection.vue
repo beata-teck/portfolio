@@ -6,12 +6,12 @@
           <span class="section-label-dot" />
           <span>About</span>
           <span>·</span>
-          <span>Who I am</span>
+          <span>Beata</span>
         </div>
-        <h2 class="section-title">Blending design sense with solid engineering</h2>
+        <h2 class="section-title">Blending creativity with clean, practical code</h2>
         <p class="section-subtitle">
-          I care about structure, naming, and clear separation of concerns. My goal is to ship interfaces that feel
-          calm, reliable, and easy to extend over time.
+          I love crafting seamless and visually appealing web experiences. My focus is on combining beauty with
+          performance using modern tools and my own creative vision.
         </p>
       </div>
 
@@ -21,27 +21,26 @@
             <div class="surface-card-inner about-card-inner">
               <h3 class="about-heading">A bit of background</h3>
               <p class="about-text">
-                I’ve worked across product and UI engineering, spending most of my time in modern frontend stacks. I
-                enjoy shaping component APIs, building layout systems, and refining the small details that make products
-                feel polished.
+                I’m a frontend developer who enjoys turning ideas into responsive, visually engaging interfaces. I care
+                a lot about intuitive user journeys, clear structure, and small details that make products feel polished.
               </p>
               <p class="about-text">
-                Recently, I’ve been focused on Nuxt 3 and Vue 3, using the Composition API and composables to keep logic
-                isolated and easy to test.
+                I like working with modern web tools such as React, Vue, and Nuxt, and I’m always exploring new ways to
+                write cleaner, more maintainable code.
               </p>
 
               <hr class="divider" />
 
               <ul class="stacked-list">
                 <li class="stacked-list-item">
-                  <div class="stacked-list-item-label">Focus areas</div>
-                  <strong>Front‑of‑the‑frontend</strong>
-                  <span>Architecture, UI patterns, and developer experience.</span>
+                  <div class="stacked-list-item-label">How I work</div>
+                  <strong>Curious and detail‑oriented</strong>
+                  <span>I like to understand the “why” and then design clean flows around it.</span>
                 </li>
                 <li class="stacked-list-item">
-                  <div class="stacked-list-item-label">Collaboration</div>
-                  <strong>Design partners</strong>
-                  <span>Translating Figma into components instead of one‑off pages.</span>
+                  <div class="stacked-list-item-label">Outside of code</div>
+                  <strong>Bookworm & lifelong learner</strong>
+                  <span>Always reading, experimenting, and finding new ideas to bring into my work.</span>
                 </li>
               </ul>
             </div>
@@ -56,19 +55,19 @@
               <div class="about-section">
                 <p class="text-xs muted">Core stack</p>
                 <div class="chip-row">
-                  <span class="chip chip-strong">Nuxt 3</span>
+                  <span class="chip chip-strong">React</span>
                   <span class="chip chip-strong">Vue 3</span>
-                  <span class="chip">TypeScript</span>
-                  <span class="chip">JavaScript (ESNext)</span>
-                  <span class="chip">CSS</span>
+                  <span class="chip">Nuxt 3</span>
+                  <span class="chip">HTML & CSS</span>
+                  <span class="chip">Tailwind CSS</span>
                 </div>
               </div>
 
               <div class="about-section">
                 <p class="text-xs muted">What I enjoy working on</p>
                 <div class="chip-row">
-                  <span class="chip">Design systems</span>
-                  <span class="chip">Component libraries</span>
+                  <span class="chip">Productivity apps</span>
+                  <span class="chip">Portfolios</span>
                   <span class="chip">Marketing sites</span>
                   <span class="chip">Dashboards</span>
                 </div>

@@ -1,27 +1,27 @@
 export const useProjects = () => {
   const projects = ref([
     {
-      id: 'nuxt-portfolio',
-      title: 'Nuxt 3 Portfolio',
-      subtitle: 'Clean, multi-page personal portfolio',
+      id: 'project-1',
+      title: 'Task Manager (React)',
+      subtitle: 'A modern React task manager built with hooks and local storage.',
       year: '2025',
-      role: 'Design & Development',
+      role: 'Frontend Developer',
       type: 'Personal project',
       summary:
-        'A fast, content-driven portfolio built with Nuxt 3 and Vue 3, focusing on clean structure, reusable components, and performance.',
+        'A modern React task manager that uses hooks, local storage, and a clean UI to keep daily tasks organised and easy to manage.',
       description:
-        'This portfolio showcases a modular Nuxt 3 architecture with layouts, composables, and reusable UI components. It is designed to be easy to extend as new projects or content are added, while keeping a small and maintainable codebase.',
+        'I built this task manager to explore how far I could push a simple idea with React: from state management with hooks to thoughtful interactions and layout. The app focuses on fast input, clear lists, and a visual style that feels light but still structured.',
       responsibilities: [
-        'Architecture & folder structure',
-        'Responsive layout & theming',
-        'Reusable components & composables',
-        'Accessibility and semantics'
+        'Designed and implemented the entire frontend in React',
+        'Used React hooks for task state, filtering, and UI interactions',
+        'Persisted tasks using local storage so nothing is lost on refresh',
+        'Crafted a responsive layout and polished hover/focus states'
       ],
-      techStack: ['Nuxt 3', 'Vue 3', 'TypeScript', 'Composition API', 'CSS'],
+      techStack: ['React', 'JavaScript', 'HTML', 'CSS', 'Tailwind CSS'],
       highlights: [
-        'Multi-page routing with dynamic project detail view',
-        'Shared layouts and navigation across pages',
-        'Composable-based data and logic separation'
+        'Smooth task creation and completion flows with minimal friction',
+        'Local storage persistence so tasks survive browser refreshes',
+        'Responsive, modern UI tuned for both desktop and mobile use'
       ],
       links: {
         site: '#',
@@ -30,13 +30,13 @@ export const useProjects = () => {
     },
     {
       id: 'dashboard-kit',
-      title: 'Analytics Dashboard Kit',
-      subtitle: 'Reusable dashboard UI system',
+      title: 'Lunara Studio Web',
+      subtitle: 'a concept portfolio for studio work and client projects',
       year: '2024',
       role: 'Frontend Engineer',
       type: 'Concept',
       summary:
-        'A concept dashboard built as a component kit with cards, filters, and data visualizations designed for reuse across products.',
+        'A visually stunning website for Lunara Studio, showcasing their portfolio and services',
       description:
         'The project explores a scalable way to build dashboards with a focus on layout primitives, card systems, and configurable panels. While data is mocked, the architecture is ready to be wired to real APIs.',
       responsibilities: [
@@ -56,13 +56,13 @@ export const useProjects = () => {
     },
     {
       id: 'marketing-landing',
-      title: 'Product Landing Page',
-      subtitle: 'Marketing site for a SaaS product',
+      title: 'Pomodoro Web App',
+      subtitle: 'A simple, focused Pomodoro timer web app to boost productivity.',
       year: '2023',
       role: 'Frontend Developer',
       type: 'Client-style',
       summary:
-        'A marketing landing page with a strong hero, feature highlights, and a simple call-to-action, optimized for conversions.',
+        'A clean and focused landing page for a Pomodoro timer web app, designed to convert visitors into users.',
       description:
         'This project focuses on clear messaging hierarchy, visual rhythm, and performance. The layout is structured around a bold hero, concise feature sections, and social proof.',
       responsibilities: [

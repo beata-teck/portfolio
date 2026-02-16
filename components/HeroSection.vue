@@ -6,19 +6,19 @@
           <div class="hero-copy">
             <div class="section-label">
               <span class="section-label-dot" />
-              <span>Portfolio</span>
+              <span>Beata</span>
               <span>·</span>
-              <span>Nuxt 3 · Vue 3</span>
+              <span>Frontend Developer</span>
             </div>
 
             <h1 class="hero-title">
-              Designing & building
-              <span class="hero-highlight">clean web experiences</span>
+              Hi! I'm Beata.
+              <span class="hero-highlight">I craft responsive, visually engaging web experiences.</span>
             </h1>
 
             <p class="hero-subtitle">
-              I’m a frontend developer focused on creating simple, scalable interfaces with attention to detail,
-              performance, and long-term maintainability.
+              I love intuitive UI and clean code. Whether it’s building a productivity app or designing a portfolio
+              site, I thrive on transforming creative ideas into interactive reality.
             </p>
 
             <div class="hero-actions">
@@ -35,13 +35,13 @@
             <div class="hero-meta">
               <div class="pill">
                 <span class="pill-dot" />
-                <span>Available for new opportunities</span>
+                <span>Frontend enthusiast · Bookworm · Lifelong learner</span>
               </div>
               <div class="chip-row">
-                <span class="chip chip-strong">Nuxt 3</span>
+                <span class="chip chip-strong">React</span>
                 <span class="chip">Vue 3</span>
-                <span class="chip">TypeScript</span>
-                <span class="chip">UI Engineering</span>
+                <span class="chip">Nuxt 3</span>
+                <span class="chip">Tailwind CSS</span>
               </div>
             </div>
           </div>
