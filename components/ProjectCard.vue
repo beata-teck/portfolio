@@ -34,10 +34,34 @@
               {{ tech }}
             </span>
           </div>
-          <span class="project-card-link">
-            View details
-            <span aria-hidden="true">↗</span>
-          </span>
+          <div class="project-card-links">
+            <span class="project-card-link">
+              View details
+              <span aria-hidden="true">↗</span>
+            </span>
+            <a
+              v-if="project.links?.site"
+              :href="project.links.site"
+              target="_blank"
+              rel="noreferrer"
+              class="project-card-link-secondary"
+              @click.stop
+            >
+              Live
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a
+              v-if="project.links?.repo"
+              :href="project.links.repo"
+              target="_blank"
+              rel="noreferrer"
+              class="project-card-link-secondary"
+              @click.stop
+            >
+              Code
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
         </div>
       </div>
     </article>
@@ -54,6 +78,7 @@ interface Project {
   type: string;
   summary: string;
   techStack: string[];
+  links?: { site?: string; repo?: string };
 }
 
 defineProps<{
@@ -130,12 +155,31 @@ defineProps<{
   margin-top: 0.4rem;
 }
 
+.project-card-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
 .project-card-link {
   font-size: 0.82rem;
   color: var(--color-accent);
   display: inline-flex;
   align-items: center;
   gap: 0.2rem;
+}
+
+.project-card-link-secondary {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+  text-decoration: none;
+}
+
+.project-card-link-secondary:hover {
+  color: var(--color-accent);
 }
 
 .project-card:hover .project-card-surface {

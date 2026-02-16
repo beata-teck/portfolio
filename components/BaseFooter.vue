@@ -15,6 +15,22 @@
         <div class="footer-links">
           <NuxtLink to="/projects" class="footer-link">Projects</NuxtLink>
           <NuxtLink to="/contact" class="footer-link">Contact</NuxtLink>
+          <a
+            href="https://portfolio-seven-amber-45.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+            class="footer-link"
+          >
+            Live
+          </a>
+          <a
+            href="https://github.com/beata-teck/portfolio"
+            target="_blank"
+            rel="noreferrer"
+            class="footer-link"
+          >
+            GitHub
+          </a>
         </div>
         <p class="footer-meta">
           <span>&copy; {{ new Date().getFullYear() }} Beata.</span>

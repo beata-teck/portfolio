@@ -24,8 +24,8 @@ export const useProjects = () => {
         'Responsive, modern UI tuned for both desktop and mobile use'
       ],
       links: {
-        site: '#',
-        repo: '#'
+        site: 'https://task-manager-qohl.vercel.app/',
+        repo: 'https://github.com/beata-teck/Task-Manager'
       }
     },
     {
@@ -50,8 +50,8 @@ export const useProjects = () => {
         'Card-based layout that adapts across breakpoints'
       ],
       links: {
-        site: '#',
-        repo: '#'
+        site: 'https://lunara-studios.vercel.app/',
+        repo: 'https://github.com/beata-teck/Lunara-Studios'
       }
     },
     {
@@ -76,8 +76,8 @@ export const useProjects = () => {
         'Thoughtful spacing and typography for readability'
       ],
       links: {
-        site: '#',
-        repo: '#'
+        site: 'https://promodoro-app-five.vercel.app/',
+        repo: 'https://github.com/beata-teck/promodoro-app'
       }
     }
   ]);
